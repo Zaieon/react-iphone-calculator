@@ -1,0 +1,23 @@
+div {
+
+    & h1 {
+        font-size: 300%;
+        margin-bottom: -50px;
+    }
+
+    & .icon {
+        font-size: 70px;
+        background-color: rgb(216, 215, 215);
+        padding: 10px 10px 5px 10px;
+        border-radius: 10px;
+        cursor: pointer;
+
+        &.activate{
+            font-size: 90px;
+            background: none;
+            // width: 100%;
+            padding: none;
+            border-radius: none;
+        }
+    }
+}
