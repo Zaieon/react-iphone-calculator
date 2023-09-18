@@ -20,7 +20,7 @@ export default class Homepage extends Component {
     return (
       <div>
         <h1>The Iphone Calculator</h1>
-        <span className="icon" onClick={() => { this.runCalculator(document.querySelector('.icon')) }}>{this.state.first}</span>
+        <div className="icon" onClick={() => { this.runCalculator(document.querySelector('.icon')) }}>{this.state.first}</div>
       </div>
     )
   }

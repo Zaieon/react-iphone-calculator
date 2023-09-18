@@ -3,8 +3,8 @@ import './calc-btn.style.scss'
 
 export const CalcBtn = (props) => {
   return (
-      <div>
-          <button onClick={() => props.displayValue(props.value)}>{props.value}</button>
-      </div>
+      
+    <button style={props.style} onClick={() => props.displayValue(props.value)}>{props.value}</button>
+    
   )
 }
